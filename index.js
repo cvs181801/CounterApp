@@ -2,8 +2,6 @@
 
 //grab button
 var myBtn = document.getElementById("btn");
-myBtn.style.background = "yellow;"
-myBtn.style.color = "grey";
 
 //add event listener to count with each click
 var counter = 0;
