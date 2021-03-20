@@ -19,7 +19,7 @@ let integer = document.getElementById("number");
 
 let counter = 0;
 
-add.addEventListener('click', function()) {
+add.addEventListener('click', function() {
     counter += 1;
     integer.innerHTML = counter;
-};
+});
