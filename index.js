@@ -9,3 +9,5 @@ myBtn.addEventListener("click", function(){
     counter += 1
     myBtn.textContent = counter
 });
+document.body.innerHTML += "<p id='paragraph'> Hoppin' Right Along! </p>"
+document.getElementById("paragraph").style.color = "green";
