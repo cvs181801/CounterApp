@@ -2,7 +2,7 @@
 
 //grab button
 var myBtn = document.getElementById("btn");
-myBtn.style.backgroundColor = "yellow;"
+myBtn.style.background = "yellow;"
 myBtn.style.color = "dark blue";
 
 //add event listener to count with each click
