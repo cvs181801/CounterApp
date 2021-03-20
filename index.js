@@ -13,8 +13,8 @@
 document.body.innerHTML += "<p id='paragraph'> Hoppin' Right Along! </p>"
 document.getElementById("paragraph").style.color = "green";
 
-let add = document.getElementById("increment");
-let subtract = document.getElementById("decrement");
+let add = document.getElementById("incrementBtn");
+let subtract = document.getElementById("decrementBtn");
 let integer = document.getElementById("number");
 
 let counter = 0;
