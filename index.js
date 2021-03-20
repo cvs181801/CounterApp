@@ -23,7 +23,13 @@ let integer = document.getElementById("number");
 let counter = 0;
 
 //create an 'increment' event listener so the number will increase when button is clicked
-add.addEventListener('click', function() {
+add.addEventListener("click", function() {
     counter += 1;
-    integer.innerHTML = counter;
+    integer.textContent = counter;
+})
+
+//create a 'decrement' event listener so the number will decrease when button is clicked
+subtract.addEventListener("click", function() {
+    counter -= 1;
+    integer.textContent = counter;
 })
